@@ -4,7 +4,6 @@ nome = input ("Digite seu nome: "+"\nOu Digite Limpa para apagar o conteúdo do 
 if nome == "limpa" or nome == "Limpa" or nome == "Limpar":
     A = open ("arq2.txt", "w")
     A.close ()
-    A.
 
 else:
 
@@ -29,11 +28,11 @@ else:
             print (sum(s,m))
             s_str = str(s)
             A = open ("arq2.txt", "a")
-            A.write (v1_str+"\n"+v2_str+"\n"+nome+"\n"+s_str+"\n\n")
+            A.write (v1_str+" | "+v2_str+" | "+nome+" | "+s_str+"\n\n")
             A.close ()
     else:
             print (m)
             m_str = str(m)
             A = open ("arq2.txt", "a")
-            A.write (v1_str+"\n"+v2_str+"\n"+nome+"\n"+m_str+"\n\n")
+            A.write (v1_str+" | "+v2_str+" | "+nome+" | "+m_str+"\n\n")
             A.close ()
