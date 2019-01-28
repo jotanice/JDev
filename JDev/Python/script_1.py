@@ -4,11 +4,12 @@ nome = input ("Digite seu nome: "+"\nOu Digite Limpa para apagar o conteúdo do 
 if nome == "limpa" or nome == "Limpa" or nome == "Limpar":
     A = open ("arq2.txt", "w")
     A.close ()
+    A.
 
 else:
 
-    v1_str = input ("Digite o valor de x: ")
-    v2_str = input ("Digite o valor de y: ")
+    v1_str = input ("Digite o valor de x:  ")
+    v2_str = input ("Digite o valor de y:  ")
 
     v1_int = int(v1_str)
     v2_int = int(v2_str)
