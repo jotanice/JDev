@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 nome = input ("Digite seu nome: "+"\nOu Digite Limpa para apagar o conteúdo do arquivo.")
 
-if nome == "limpa" or nome == "Limpa":
+if nome == "limpa" or nome == "Limpa" or nome == "Limpar":
     A = open ("arq2.txt", "w")
     A.close ()
 
