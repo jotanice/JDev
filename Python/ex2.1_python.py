@@ -1,43 +1,72 @@
 # -*- coding: utf-8 -*-
-'''# Soma
+'''# a
 4 + 4'''
 
-var1 = 4;
+a = 4 + 4
 
-soma = var1 + 4;
-
-print(soma);
+print(a);
 
 '''# Subtração
-4 - 3
+4 - 3'''
 
-# Multiplicação
-3 * 3
+a = 4 - 3
 
-# Divisão
-3 / 2
+print(a);
 
-# Potência
-4 ** 2
+'''# Multiplicação
+3 * 3'''
 
-# Módulo
-10 % 3
+a = 3 * 3
 
-#Função Type
+print(a);
+
+'''# Divisão
+3 / 2'''
+
+a = 3 / 2
+
+print(a);
+
+'''# Potência
+4 ** 2'''
+
+a = 4 ** 2
+
+print(a);
+
+'''# Módulo
+10 % 3'''
+
+a = 10 % 3
+
+print(a);
+
+'''#Função Type
 type(5)
 type(5.0)
 a = 'Eu sou uma string'
-type(a)
+type(a)'''
 
-#Operações com números float
+b = type(a)
+
+print("A variável 'a' é uma " + str(b));
+
+
+'''#Operações com números float
 3.1 + 6.4
 4 + 4.0
-4 + 4
+4 + 4'''
 
-# Resultado é um número float
-4 / 2
+a = 3.1 + 6.4;
+print(a);
 
-# Resultado é um número inteiro
+'''# Resultado é um número float
+4 / 2'''
+
+a = 4 / 2;
+print(float(a));
+
+'''# Resultado é um número inteiro
 4 // 2
 4 / 3.0
 4 // 3.0
